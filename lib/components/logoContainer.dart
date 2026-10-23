@@ -3,7 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 
 class Logocontainer extends StatelessWidget {
   const Logocontainer({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -57,7 +56,7 @@ class Logocontainer extends StatelessWidget {
                 ),
                 TextSpan(
                   text: 'Store',
-                  style: TextStyle(fontStyle: FontStyle.italic),
+                  style: TextStyle(fontWeight: FontWeight.w700),
                 ),
               ],
             ),
